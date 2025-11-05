@@ -1,0 +1,9 @@
+# /etc/default/otls — environment for healthcheck & daily report
+CSV_PATH=/opt/otls/logs/otls_unified_log.csv
+ALERT_TO=
+ALERT_FROM=otls@chacaltaya.local
+WEBHOOK_URL=
+# Remote sync settings (used by sync_to_vm.sh)
+REMOTE_USER=
+REMOTE_HOST=
+REMOTE_PATH=~/otls_chacaltaya/
